@@ -105,14 +105,6 @@ hr.light-100 {
 }
 
 
-
-
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -145,15 +137,6 @@ hr.light-100 {
   
 }
 
-
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -207,6 +190,7 @@ Large (lg) devices (desktops, 992px and up)
 
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
+
 */
 
 
